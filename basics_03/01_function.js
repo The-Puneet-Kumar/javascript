@@ -36,3 +36,31 @@ return `${username}, just logged in`
 
 console.log(loginUserMessage("puneet"));
 // console.log(loginUserMessage());
+
+function calculateCartPrice(val1,val2,...num1){
+    return num1;
+}
+// console.log(calculateCartPrice(200,400,500,2000));
+
+const user={
+    username:"puneet",
+    price:1999
+}
+
+function handleObject(anyObject){
+    console.log(`Username ${anyObject.username} and price is ${anyObject.price}`);
+}
+// handleObject(user)
+handleObject({
+    username:"Nisha",
+    price:"free"
+})
+
+
+const myNewArray= [100,200,400,600]
+
+function returnsecondValue(getArray){
+    return getArray[1]
+}
+// console.log(returnsecondValue(myNewArray));
+console.log(returnsecondValue([100,200,300,400,500,600,7000]));
